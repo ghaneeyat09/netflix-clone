@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 100;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 300;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 400;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 700;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 800;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 900;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  /* color: rgba(6, 6, 6, 0.237) */
+}
+.row-container::-webkit-scrollbar {
+  display: none;
+}
+/* .pack01:hover{
+   background: linear-gradient(318.25deg, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 92.16%, rgba(74, 42, 150, 0) 109.15%), rgb(29, 82, 157);
+   color: #ffff;
+}
+.pack02:hover{
+   background: linear-gradient(318.25deg, rgb(176, 56, 220) 0%, rgba(74, 42, 150, 0.5) 92.16%, rgba(74, 42, 150, 0) 109.15%), rgb(29, 82, 157);
+   color: #ffff;
+}
+.pack03:hover{
+   background: linear-gradient(318.25deg, rgb(109, 59, 227) 0%, rgba(74, 42, 150, 0.5) 92.16%, rgba(74, 42, 150, 0) 109.15%), rgb(29, 82, 157);
+   color: #ffff;
+}
+.pack04:hover{
+  background: linear-gradient(318.25deg, rgb(33, 114, 227) 0%, rgba(74, 42, 150, 0.5) 92.16%, rgba(74, 42, 150, 0) 109.15%), rgb(29, 82, 157);
+  color: #ffff;
+} */
